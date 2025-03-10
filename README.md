@@ -1,4 +1,4 @@
-# 💘 Feeling Indicator - The 8-bit Love Detective
+# 💘 Feeling Indicator
 
 ![Love Detective](assets/banner.gif)
 
@@ -25,7 +25,7 @@ We can spy on your flirting attempts in:
 
 1. Clone this bad boy:
    ```bash
-   git clone https://github.com/yourusername/feeling-indicator.git
+   git clone https://github.com/ibenalia/feeling-indicator.git
    ```
 
 2. Get your DeepSeek API key from [here](https://platform.deepseek.com)
@@ -51,7 +51,7 @@ We can spy on your flirting attempts in:
 ## 🤔 How it Works
 
 1. You send a message
-2. Our AI reads it
+2. DeepSeek reads it
 3. Magic happens
 4. You get a score
 5. You overthink it
@@ -75,11 +75,7 @@ Found a bug? Want to add support for your favorite dating app? Know how to make 
 ## 💝 Credits
 
 Built with:
-- Love
-- JavaScript
-- Questionable life decisions
-- Too much coffee
-- A desperate need for validation
+- Vibe Coding
 
 ---
 
