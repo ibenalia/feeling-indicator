@@ -2,7 +2,7 @@
 
 ![Love Detective](assets/banner.gif)
 
-> **⚠️ DISCLAIMER**: While the CCP might be reading your DMs anyway, we promise we're not sharing your cringe flirting attempts with them. Your secrets are safe with us! (Unless you're really bad at flirting, then we might need to report you to the Dating Police 👮‍♂️)
+> **⚠️ DISCLAIMER**: This extension uses DeepSeek's API to analyze your messages. Please be mindful of privacy concerns and avoid sharing sensitive or confidential information. Stay vigilant about what you analyze! 🔒
 
 ## 🎮 What is this?
 
