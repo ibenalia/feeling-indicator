@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feeling Indicator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="pixelated-header">
+      <h1>FEELING INDICATOR</h1>
+      <img src="images/pixel-hearth.png" alt="Pixel Heart" class="pixel-heart-img">
+    </header>
+    
+    <div class="setup-section" id="setup-section">
+      <h2>SETUP YOUR POWER</h2>
+      <div class="input-group">
+        <label for="api-key">DeepSeek API Key:</label>
+        <input type="password" id="api-key" placeholder="Enter your API key">
+      </div>
+      <button id="save-api-key" class="pixel-button">SAVE KEY</button>
+      <div id="key-status" class="status-message"></div>
+    </div>
+    
+    <div class="main-section">
+      <div class="controls">
+        <button id="analyze-button" class="pixel-button">ANALYZE VIBES</button>
+        <button id="settings-button" class="pixel-button">SETTINGS</button>
+      </div>
+      
+      <div class="result-section" id="result-section">
+        <h2>VIBE-O-METER</h2>
+        <div class="vibe-container">
+          <div class="vibe-meter">
+            <div class="vibe-bar" id="vibe-bar"></div>
+          </div>
+          <div class="vibe-percentage" id="vibe-percentage">0%</div>
+        </div>
+        <div class="vibe-message" id="vibe-message">Press ANALYZE to check your connection!</div>
+      </div>
+      
+      <div class="loading-section" id="loading-section">
+        <div class="c-loader">
+          <div class="c-loader__title">
+            <div class="c-loader__state c-loader__state--progress">ANALYZING VIBES<span class="c-loader__dots">...</span></div>
+            <div class="c-loader__state c-loader__state--complete">COMPLETE</div>
+          </div>
+          <div class="c-loader__holder">
+            <span class="c-loader__progress"></span>
+            <span class="c-loader__progress-helper c-loader__progress-helper--left"></span>
+            <span class="c-loader__progress-helper c-loader__progress-helper--right"></span>
+            <svg class="c-loader__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 22">
+              <path d="M235.4 8.5h-1.6V5h-4V1H5.8v4h-3v3.5h-2v6h2V17h3v4h224v-4h4v-2.5h1.6v-6zm-3.6 6.5h-4v4H7.8v-4h-3V7h3V3h220v4h4v8z" id="Layer_7"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      
+      <div class="error-section" id="error-section">
+        <div class="pixel-error"></div>
+        <p id="error-message">Something went wrong!</p>
+      </div>
+    </div>
+    
+    <footer>
+      <p>Made with <img src="images/pixel-hearth.png" alt="heart" class="footer-heart"> | <a href="https://github.com/yourusername/feeling-indicator" target="_blank">GitHub</a></p>
+    </footer>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html> 
